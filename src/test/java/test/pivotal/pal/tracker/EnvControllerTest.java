@@ -9,6 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class EnvControllerTest {
     @Test
+
     public void getEnv() {
         EnvController controller = new EnvController(
             "8675",
